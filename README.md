@@ -1,10 +1,10 @@
-# dsrp-mle-1
+# DSRP-MLE1: Regresión Logistica, Wisconsin_Breast_cancer data.
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
+![release](https://img.shields.io/badge/release-v1.0.0-blue.svg)
+![python](https://img.shields.io/badge/Python-3.11%2B-blue)
+![framework](https://img.shields.io/badge/Framework-Scikit--learn-orange)
 
-Ejemplo de uso de cookiecutter para el curso ded mle1
+Ejemplo de uso de cookiecutter para el curso de mle1
 
 ## Project Organization
 
