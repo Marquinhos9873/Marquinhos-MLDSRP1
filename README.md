@@ -4,8 +4,27 @@
 ![python](https://img.shields.io/badge/Python-3.11%2B-blue)
 ![framework](https://img.shields.io/badge/Framework-Scikit--learn-orange)
 
-Ejemplo de uso de cookiecutter para el curso de mle1
 
+![image](https://github.com/user-attachments/assets/5f57dff5-40e7-4c4b-9653-f2f25aaed5bb)
+
+
+Este proyecto académico sobre el dataset wisconsin_breastcancer.csv(Data.csv) reecuperado de https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data tiene como objetivo
+realizar un modelo de regresión logística para poder predecir si el paciente dado a los datos, si padece cancer de mama o no.
+
+🧠 1. Problema y Objetivo del Proyecto
+    Contexto del problema:
+    El cáncer de mama es una de las enfermedades más comunes y preocupantes a nivel mundial, representando un desafío significativo para los sistemas de salud debido a su alta incidencia y mortalidad asociada. Una detección temprana y precisa es fundamental para mejorar el pronóstico de los pacientes y permitir un tratamiento oportuno y eficaz.
+    En este proyecto, se trabaja con el conjunto de datos Wisconsin Breast Cancer (data.csv), con el objetivo de desarrollar un modelo de clasificación supervisado capaz de predecir la posible presencia de células cancerígenas (tumor). El propósito es facilitar herramientas automatizadas de apoyo al diagnóstico médico que permitan reducir el tiempo de respuesta y mejorar la toma de decisiones clínicas.
+    Objetivo del trabajo: 
+    El objetivo principal de este proyecto es desarrollar un modelo de clasificación supervisado utilizando regresión logística, orientado a predecir la variable diagnosis del conjunto de datos Wisconsin Breast Cancer. Una vez entrenado, el modelo será serializado en formato .joblib para su reutilización.
+    Para evaluar su desempeño, se utilizará el informe de clasificación (classification_report) que proporciona métricas como precisión, recall, f1-score y exactitud, con el fin de asegurar que el modelo minimice los errores de predicción y sea clínicamente útil como herramienta de apoyo diagnóstico.
+
+🪧 2. Project Flowchart
+    El proyecto sigue el presente diagrama de flujo que muestra su funcionamiento
+    ![image](https://github.com/user-attachments/assets/bbcd8fc2-cf17-4635-b26b-0116937d1e6b)
+
+✍️ 3. Descripción del dataset
+    Este datas
 ## Project Organization
 
 ```
