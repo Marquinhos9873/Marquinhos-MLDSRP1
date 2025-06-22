@@ -55,8 +55,10 @@ Nota: Hay otras 23 variables adicionales en el dataset, todas del tipo 'float'.
 - **Fecha de release:** 22, June 2025  
 - **Versión:** 1.0  
 - **Model Type:** Regresión Logística
-### Uso previsto:
-
+### Uso previsto:  
+- **Finalidad principal:** Este modelo fue creado con el objetivo de **apoyar la predicción del tipo de tumor mamario** (benigno o maligno) basándose en mediciones morfológicas derivadas de estudios de imagen.
+- **Usuarios esperados:** Está orientado a ser utilizado por **analistas de datos, investigadores en biomedicina y estudiantes de ciencia de datos o aprendizaje automático**.
+- **Fuera de Alcance:** Este modelo **no está diseñado para reemplazar el criterio médico profesional**, por lo que **no debe emplearse como único instrumento de diagnóstico clínico**.  No se aconseja aplicar este modelo a conjuntos de datos diferentes al *Wisconsin Breast Cancer Dataset* sin realizar previamente un proceso de validación y ajuste adecuados.
 ## Project Organization
 
 ```
