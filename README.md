@@ -87,8 +87,8 @@ Nota: Hay otras 23 variables adicionales en el dataset, todas del tipo 'float'.
 
 ## 🐈‍⬛ 5. Estrategia de Git:
 ### Ramas:
-   -**main:**Contiene el código de producción, estable
-   -**modelos_finales:**Como lo mostrado en clase, usada para poder guardar y subir los archivos .joblib/.pkl con su pull request respectiva.
+- **main:**Contiene el código de producción, estable
+- **modelos_finales:**Como lo mostrado en clase, usada para poder guardar y subir los archivos .joblib/.pkl con su pull request respectiva.
 
 ```
 ├── LICENSE            <- Open-source license if one is chosen
