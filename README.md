@@ -51,10 +51,10 @@ Nota: Hay otras 23 variables adicionales en el dataset, todas del tipo 'float'.
 
 ## ✉️ 4. Model Card :  Regresión_Logistica_breastcancer v_1
 ### Detalles : 
-   Autor: Marco P
-   Fecha de realease: 22, June 2025
-   Version: 1.0
-   Model Type: Regresión Logística
+- **Autor:** Marco P  
+- **Fecha de release:** 22, June 2025  
+- **Versión:** 1.0  
+- **Model Type:** Regresión Logística
 ### Uso previsto:
 
 ## Project Organization
