@@ -14,7 +14,7 @@ realizar un modelo de regresión logística para poder predecir si el paciente d
 ## 🧠 1. Problema y Objetivo del Proyecto
 ###     Contexto del problema:
 ###     El cáncer de mama es una de las enfermedades más comunes y preocupantes a nivel mundial, representando un desafío significativo para los sistemas de salud debido a su alta incidencia y mortalidad asociada. Una detección temprana y precisa es fundamental para mejorar el pronóstico de los pacientes y permitir un tratamiento oportuno y eficaz.
-###    En este proyecto, se trabaja con el conjunto de datos Wisconsin Breast Cancer (data.csv), con el objetivo de desarrollar un modelo de clasificación supervisado capaz de predecir la posible presencia de células cancerígenas (tumor). El propósito es facilitar herramientas automatizadas de apoyo al diagnóstico médico que permitan reducir el tiempo de respuesta y mejorar la toma de decisiones clínicas.
+###    En este proyecto, se trabaja con el conjunto de datos Wisconsin Breast Cancer (data.csv), con el objetivo de desarrollar un modelo de clasificación supervisado capaz de predecir la posible presencia de células cancerígenas benignas o malignas (tumor benigno o maligno). El propósito es facilitar herramientas automatizadas de apoyo al diagnóstico médico que permitan reducir el tiempo de respuesta y mejorar la toma de decisiones clínicas.
 ###    Objetivo del trabajo: 
 ###    El objetivo principal de este proyecto es desarrollar un modelo de clasificación supervisado utilizando regresión logística, orientado a predecir la variable diagnosis del conjunto de datos Wisconsin Breast Cancer. Una vez entrenado, el modelo será serializado en formato .joblib para su reutilización.
 ###    Para evaluar su desempeño, se utilizará el informe de clasificación (classification_report) que proporciona métricas como precisión, recall, f1-score y exactitud, con el fin de asegurar que el modelo minimice los errores de predicción y sea clínicamente útil como herramienta de apoyo diagnóstico.
@@ -23,8 +23,20 @@ realizar un modelo de regresión logística para poder predecir si el paciente d
 ###       El proyecto sigue el presente diagrama de flujo que muestra su funcionamiento
    ![image](https://github.com/user-attachments/assets/bbcd8fc2-cf17-4635-b26b-0116937d1e6b)
 
-✍️ 3. Descripción del dataset
-    Este datas
+## ✍️ 3. Descripción del dataset
+###    Este dataset es recuperado de Kaggle (Kaggle.com) mas específicamente de "Breast Cancer Wisconsin (Diagnostic) Data Set" (https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) 
+###    conteniendo datos provechosos para este ejercicio, como la morfología de los casos.
+
+| Ítem                | Detalle                                                                                                                                               |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Fuente**          | [Página de Kaggle](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) Autores: UCI Machine Learning (2014)                                          |
+| **Licencia**        | CC BY-4.0 – permite redistribución y obras derivadas con atribución                                                                                   |
+| **Filas utilizadas**| Todas                              |
+| **Variable objetivo**| `diagnosis` – Diagnostico respecto al tipo de masa estudiado , si es un tumor maligno o benigno.                                                                                                 |
+| **Familias de variables** | **Morfológicas**: `radius_mean`, `perimeter_mean`, `area_mean`, `compactness_mean`, `concavity_mean`, `concave points_mean`<br>**Texturales**: `texture_mean`, `smoothness_mean` |
+| **Valores faltantes**| Ninguno                                                                                                            |
+| **Unidades**         | No especifica, pero como es un dataset de Winsconsin, USA. Se interpretará con el sistema métrico local.                                                                           |
+
 ## Project Organization
 
 ```
