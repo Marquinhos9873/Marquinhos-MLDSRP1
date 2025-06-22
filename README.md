@@ -11,7 +11,7 @@
 
 
 Este proyecto académico sobre el dataset wisconsin_breastcancer.csv(Data.csv) reecuperado de https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data tiene como objetivo
-realizar un modelo de regresión logística para poder predecir si el paciente dado a los datos, si padece cancer de mama o no.
+realizar un modelo de regresión logística para poder predecir si el paciente dado a los datos, si padece cáncer de mama o no.
 ---
 ## 📑 Índice
 
