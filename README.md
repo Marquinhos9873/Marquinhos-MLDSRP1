@@ -93,7 +93,7 @@ El modelo fue entrenado con la totalidad de los datos, exceptuando por la ultima
 ![image](https://github.com/user-attachments/assets/ad8ff9b4-f6e2-40ce-93d0-2dbe28ca0d07)
 
 ---
-## 🐈‍⬛ 5. Estrategia de Git:
+## 🐈‍⬛ 5. Estrategia de Git
 
 ### Ramas:
 - **main:** Contiene el código de producción, estable
