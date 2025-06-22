@@ -90,6 +90,35 @@ Nota: Hay otras 23 variables adicionales en el dataset, todas del tipo 'float'.
 - **main:** Contiene el código de producción, estable
 - **modelos_finales:** Como lo mostrado en clase, usada para poder guardar y subir los archivos .joblib/.pkl con su pull request respectiva.
 
+## 💥 6. Resultados y Conclusiones
+### 🧪 Evaluación del Modelo
+
+El modelo desarrollado, basado en regresión logística, fue evaluado utilizando métricas estándar de clasificación (precision, recall, f1-score y accuracy), y los resultados fueron comparados con un modelo base (`DummyClassifier`) que predice siempre la clase más frecuente.
+
+**DummyClassifier** presentó un rendimiento significativamente bajo:
+- **Accuracy:** 62%
+- **Recall en clase 1 (maligno):** 0%
+- **F1-score en clase 1:** 0%
+
+Modelo evaluado con `DummyClassifier`, clasificación errada esperada.
+
+**Regresión Logística** mostró un rendimiento notable:
+- **Accuracy:** 97.9%
+- **Recall en clase 1:** 98%
+- **Precision en clase 1:** 96%
+- **F1-score general:** 97-98%
+
+Esto indica que el modelo tiene un excelente desempeño en la detección tanto de casos benignos como malignos.
+
+---
+
+### 🧾 Conclusiones
+
+El modelo cumple satisfactoriamente con el objetivo planteado: ofrecer un diagnóstico temprano y confiable del cáncer de mama, basado en características morfológicas. Gracias a su alto rendimiento, puede ser considerado como una posible herramienta complementaria útil en entornos clínicos para apoyar decisiones médicas.
+
+Sin embargo, se recomienda su uso con supervisión profesional y como parte de un sistema más amplio de análisis, especialmente al considerar posibles sesgos en los datos y la importancia crítica de los falsos negativos en el diagnóstico médico.
+
+## --> MODELO DE README CON COOKIECUTTER
 ```
 ├── LICENSE            <- Open-source license if one is chosen
 ├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
