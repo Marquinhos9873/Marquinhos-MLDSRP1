@@ -10,20 +10,24 @@
 
 Este proyecto académico sobre el dataset wisconsin_breastcancer.csv(Data.csv) reecuperado de https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data tiene como objetivo
 realizar un modelo de regresión logística para poder predecir si el paciente dado a los datos, si padece cancer de mama o no.
-
+---
 ## 🧠 1. Problema y Objetivo del Proyecto
+---
 ###     Contexto del problema:
 ###     El cáncer de mama es una de las enfermedades más comunes y preocupantes a nivel mundial, representando un desafío significativo para los sistemas de salud debido a su alta incidencia y mortalidad asociada. Una detección temprana y precisa es fundamental para mejorar el pronóstico de los pacientes y permitir un tratamiento oportuno y eficaz.
 ###    En este proyecto, se trabaja con el conjunto de datos Wisconsin Breast Cancer (data.csv), con el objetivo de desarrollar un modelo de clasificación supervisado capaz de predecir la posible presencia de células cancerígenas benignas o malignas (tumor benigno o maligno). El propósito es facilitar herramientas automatizadas de apoyo al diagnóstico médico que permitan reducir el tiempo de respuesta y mejorar la toma de decisiones clínicas.
 ###    Objetivo del trabajo: 
 ###    El objetivo principal de este proyecto es desarrollar un modelo de clasificación supervisado utilizando regresión logística, orientado a predecir la variable diagnosis del conjunto de datos Wisconsin Breast Cancer. Una vez entrenado, el modelo será serializado en formato .joblib para su reutilización.
 ###    Para evaluar su desempeño, se utilizará el informe de clasificación (classification_report) que proporciona métricas como precisión, recall, f1-score y exactitud, con el fin de asegurar que el modelo minimice los errores de predicción y sea clínicamente útil como herramienta de apoyo diagnóstico.
-
+---
 ## 🪧 2. Project Flowchart
+
 ###       El proyecto sigue el presente diagrama de flujo que muestra su funcionamiento
    ![image](https://github.com/user-attachments/assets/bbcd8fc2-cf17-4635-b26b-0116937d1e6b)
 
+---
 ## ✍️ 3. Descripción del dataset
+
 ###    Este dataset es recuperado de Kaggle (Kaggle.com) mas específicamente de "Breast Cancer Wisconsin (Diagnostic) Data Set" (https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) conteniendo datos provechosos para este ejercicio, como la morfología de los casos.
 
 | Ítem                | Detalle                                                                                                                                               |
@@ -48,7 +52,7 @@ realizar un modelo de regresión logística para poder predecir si el paciente d
 | `concavity_mean`       | Severidad promedio de las partes cóncavas del contorno                     | `float`          | Morfológica            |
 | `concave points_mean`  | Promedio de puntos cóncavos del contorno                                   | `float`          | Morfológica            |
 Nota: Hay otras 23 variables adicionales en el dataset, todas del tipo 'float'.
-
+---
 ## ✉️ 4. Model Card :  Regresión_Logistica_breastcancer v_1
 ### Detalles : 
 - **Autor:** Marco P  
@@ -85,7 +89,9 @@ Nota: Hay otras 23 variables adicionales en el dataset, todas del tipo 'float'.
 ### Datos de Entrenamiento:  El modelo fue entrenado con la totalidad de los datos, exceptuando por la ultima y primera fila (unnamed32, id respectivamente) ya que unnamed32 es una fila con valores vacios e id es una fila con un numero identificador solamente.
 ![image](https://github.com/user-attachments/assets/ad8ff9b4-f6e2-40ce-93d0-2dbe28ca0d07)
 
+---
 ## 🐈‍⬛ 5. Estrategia de Git:
+
 ### Ramas:
 - **main:** Contiene el código de producción, estable
 - **modelos_finales:** Como lo mostrado en clase, usada para poder guardar y subir los archivos .joblib/.pkl con su pull request respectiva.
@@ -117,7 +123,7 @@ Esto indica que el modelo tiene un excelente desempeño en la detección tanto d
 El modelo cumple satisfactoriamente con el objetivo planteado: ofrecer un diagnóstico temprano y confiable del cáncer de mama, basado en características morfológicas. Gracias a su alto rendimiento, puede ser considerado como una posible herramienta complementaria útil en entornos clínicos para apoyar decisiones médicas.
 
 Sin embargo, se recomienda su uso con supervisión profesional y como parte de un sistema más amplio de análisis, especialmente al considerar posibles sesgos en los datos y la importancia crítica de los falsos negativos en el diagnóstico médico.
-
+---
 ## --> MODELO DE README CON COOKIECUTTER
 ```
 ├── LICENSE            <- Open-source license if one is chosen
