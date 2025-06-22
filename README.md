@@ -50,6 +50,10 @@ realizar un modelo de regresión logística para poder predecir si el paciente d
 | `concave points_mean`  | Promedio de puntos cóncavos del contorno                                   | `float`          | Morfológica            |
 Nota: Hay otras 23 variables adicionales en el dataset, todas del tipo 'float'.
 
+## ✉️ 4. Model Card :  Regresión_Logistica_breastcancer v_1
+### Detalles :
+
+
 ## Project Organization
 
 ```
