@@ -3,7 +3,9 @@
 ![release](https://img.shields.io/badge/release-v1.0.0-blue.svg)
 ![python](https://img.shields.io/badge/Python-3.11%2B-blue)
 ![framework](https://img.shields.io/badge/Framework-Scikit--learn-orange)
-
+![template](https://img.shields.io/badge/Template-CCDS-328F97?logo=cookiecutter)
+![cloud](https://img.shields.io/badge/Cloud-Azure%20VM-007FFF?logo=microsoftazure)
+![editor](https://img.shields.io/badge/Editor-JupyterLab-F37626?logo=jupyter)
 
 ![image](https://github.com/user-attachments/assets/5f57dff5-40e7-4c4b-9653-f2f25aaed5bb)
 
