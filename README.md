@@ -59,6 +59,14 @@ Nota: Hay otras 23 variables adicionales en el dataset, todas del tipo 'float'.
 - **Finalidad principal:** Este modelo fue creado con el objetivo de **apoyar la predicción del tipo de tumor mamario** (benigno o maligno) basándose en mediciones morfológicas derivadas de estudios de imagen.
 - **Usuarios esperados:** Está orientado a ser utilizado por **analistas de datos, investigadores en biomedicina y estudiantes de ciencia de datos o aprendizaje automático**.
 - **Fuera de Alcance:** Este modelo **no está diseñado para reemplazar el criterio médico profesional**, por lo que **no debe emplearse como único instrumento de diagnóstico clínico**.
+## Evaluación:
+###          precision    recall  f1-score   support
+###
+###       0       0.62      1.00      0.77        89
+###       1       0.00      0.00      0.00        54
+###
+###accuracy                           0.62       143
+
 
 ```
 ├── LICENSE            <- Open-source license if one is chosen
