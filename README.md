@@ -58,7 +58,7 @@ Nota: Hay otras 23 variables adicionales en el dataset, todas del tipo 'float'.
 ### Uso previsto:  
 - **Finalidad principal:** Este modelo fue creado con el objetivo de **apoyar la predicción del tipo de tumor mamario** (benigno o maligno) basándose en mediciones morfológicas derivadas de estudios de imagen.
 - **Usuarios esperados:** Está orientado a ser utilizado por **analistas de datos, investigadores en biomedicina y estudiantes de ciencia de datos o aprendizaje automático**.
-- **Fuera de Alcance:** Este modelo **no está diseñado para reemplazar el criterio médico profesional**, por lo que **no debe emplearse como único instrumento de diagnóstico clínico**.
+- **Fuera de Alcance y Consideraciones Éticas:** Este modelo **no está diseñado para reemplazar el criterio médico profesional**, por lo que **no debe emplearse como único instrumento de diagnóstico clínico**.
 
 ### Evaluación:
 ### 📊 Comparación del Modelo
@@ -85,6 +85,10 @@ Nota: Hay otras 23 variables adicionales en el dataset, todas del tipo 'float'.
 ### Datos de Entrenamiento:  El modelo fue entrenado con la totalidad de los datos, exceptuando por la ultima y primera fila (unnamed32, id respectivamente) ya que unnamed32 es una fila con valores vacios e id es una fila con un numero identificador solamente.
 ![image](https://github.com/user-attachments/assets/ad8ff9b4-f6e2-40ce-93d0-2dbe28ca0d07)
 
+## 🐈‍⬛ 5. Estrategia de Git:
+### Ramas:
+   -**main:**Contiene el código de producción, estable
+   -**modelos_finales:**Como lo mostrado en clase, usada para poder guardar y subir los archivos .joblib/.pkl con su pull request respectiva.
 
 ```
 ├── LICENSE            <- Open-source license if one is chosen
