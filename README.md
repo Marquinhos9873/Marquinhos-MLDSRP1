@@ -12,7 +12,6 @@ Este proyecto académico sobre el dataset wisconsin_breastcancer.csv(Data.csv) r
 realizar un modelo de regresión logística para poder predecir si el paciente dado a los datos, si padece cancer de mama o no.
 ---
 ## 🧠 1. Problema y Objetivo del Proyecto
----
 ###     Contexto del problema:
 ###     El cáncer de mama es una de las enfermedades más comunes y preocupantes a nivel mundial, representando un desafío significativo para los sistemas de salud debido a su alta incidencia y mortalidad asociada. Una detección temprana y precisa es fundamental para mejorar el pronóstico de los pacientes y permitir un tratamiento oportuno y eficaz.
 ###    En este proyecto, se trabaja con el conjunto de datos Wisconsin Breast Cancer (data.csv), con el objetivo de desarrollar un modelo de clasificación supervisado capaz de predecir la posible presencia de células cancerígenas benignas o malignas (tumor benigno o maligno). El propósito es facilitar herramientas automatizadas de apoyo al diagnóstico médico que permitan reducir el tiempo de respuesta y mejorar la toma de decisiones clínicas.
