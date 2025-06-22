@@ -94,7 +94,7 @@ Nota: Hay otras 23 variables adicionales en el dataset, todas del tipo 'float'.
 ### Ramas:
 - **main:** Contiene el código de producción, estable
 - **modelos_finales:** Como lo mostrado en clase, usada para poder guardar y subir los archivos .joblib/.pkl con su pull request respectiva.
-
+---
 ## 💥 6. Resultados y Conclusiones
 ### 🧪 Evaluación del Modelo
 
