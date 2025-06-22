@@ -24,8 +24,7 @@ realizar un modelo de regresión logística para poder predecir si el paciente d
    ![image](https://github.com/user-attachments/assets/bbcd8fc2-cf17-4635-b26b-0116937d1e6b)
 
 ## ✍️ 3. Descripción del dataset
-###    Este dataset es recuperado de Kaggle (Kaggle.com) mas específicamente de "Breast Cancer Wisconsin (Diagnostic) Data Set" (https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) 
-###    conteniendo datos provechosos para este ejercicio, como la morfología de los casos.
+###    Este dataset es recuperado de Kaggle (Kaggle.com) mas específicamente de "Breast Cancer Wisconsin (Diagnostic) Data Set" (https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) \nconteniendo datos provechosos para este ejercicio, como la morfología de los casos.
 
 | Ítem                | Detalle                                                                                                                                               |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
