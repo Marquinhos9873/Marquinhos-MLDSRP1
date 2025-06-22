@@ -120,8 +120,8 @@ Esto indica que el modelo tiene un excelente desempeño en la detección tanto d
 ### 🧾 Conclusiones
 
 El modelo cumple satisfactoriamente con el objetivo planteado: ofrecer un diagnóstico temprano y confiable del cáncer de mama, basado en características morfológicas. Gracias a su alto rendimiento, puede ser considerado como una posible herramienta complementaria útil en entornos clínicos para apoyar decisiones médicas.
-
 Sin embargo, se recomienda su uso con supervisión profesional y como parte de un sistema más amplio de análisis, especialmente al considerar posibles sesgos en los datos y la importancia crítica de los falsos negativos en el diagnóstico médico.
+
 ---
 ## --> MODELO DE README CON COOKIECUTTER
 ```
