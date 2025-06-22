@@ -63,6 +63,7 @@ Nota: Hay otras 23 variables adicionales en el dataset, todas del tipo 'float'.
 ### Evaluación:
 ### 📊 Comparación del Modelo
 
+
 | Modelo              | Clase | Precision | Recall | F1-Score | Soporte |
 |---------------------|--------|-----------|--------|----------|---------|
 | **DummyClassifier** |   0    |   0.62     |  1.00  |   0.77    |   89    |
@@ -81,7 +82,7 @@ Nota: Hay otras 23 variables adicionales en el dataset, todas del tipo 'float'.
 |                           | **Macro avg** | 0.98 | 0.98 | 0.98 | 143 |
 |                           | **Weighted avg** | 0.98 | 0.98 | 0.98 | 143 |
 
-
+### Datos de Entrenamiento:  El modelo fue entrenado con la totalidad de los datos, exceptuando por la ultima y primera fila (unnamed32, id respectivamente) ya que unnamed32 es una fila con valores vacios e id es una fila con un numero identificador solamente.
 ```
 ├── LICENSE            <- Open-source license if one is chosen
 ├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
