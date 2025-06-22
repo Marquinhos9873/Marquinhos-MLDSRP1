@@ -89,6 +89,7 @@ Nota: Hay otras 23 variables adicionales en el dataset, todas del tipo 'float'.
 
 ### Datos de Entrenamiento:  
 El modelo fue entrenado con la totalidad de los datos, exceptuando por la ultima y primera fila (unnamed32, id respectivamente) ya que unnamed32 es una fila con valores vacios e id es una fila con un numero identificador solamente.
+
 ![image](https://github.com/user-attachments/assets/ad8ff9b4-f6e2-40ce-93d0-2dbe28ca0d07)
 
 ---
