@@ -59,13 +59,27 @@ Nota: Hay otras 23 variables adicionales en el dataset, todas del tipo 'float'.
 - **Finalidad principal:** Este modelo fue creado con el objetivo de **apoyar la predicción del tipo de tumor mamario** (benigno o maligno) basándose en mediciones morfológicas derivadas de estudios de imagen.
 - **Usuarios esperados:** Está orientado a ser utilizado por **analistas de datos, investigadores en biomedicina y estudiantes de ciencia de datos o aprendizaje automático**.
 - **Fuera de Alcance:** Este modelo **no está diseñado para reemplazar el criterio médico profesional**, por lo que **no debe emplearse como único instrumento de diagnóstico clínico**.
-## Evaluación:
-###          precision    recall  f1-score   support
-###
-###       0       0.62      1.00      0.77        89
-###       1       0.00      0.00      0.00        54
-###
-###accuracy                           0.62       143
+
+### Evaluación:
+### 📊 Comparación del Modelo
+
+| Modelo              | Clase | Precision | Recall | F1-Score | Soporte |
+|---------------------|--------|-----------|--------|----------|---------|
+| **DummyClassifier** |   0    |   0.62     |  1.00  |   0.77    |   89    |
+|                     |   1    |   0.00     |  0.00  |   0.00    |   54    |
+|                     | Total  |           |        |          | **143** |
+|                     | **Accuracy** |      |        |          | **0.62** |
+|                     | **Macro avg** | 0.31 | 0.50 | 0.38 | 143 |
+|                     | **Weighted avg** | 0.39 | 0.62 | 0.48 | 143 |
+
+| Modelo                    | Clase | Precision | Recall | F1-Score | Soporte |
+|---------------------------|--------|-----------|--------|----------|---------|
+| **Regresión Logística**   |   0    |   0.99     |  0.98  |   0.98    |   89    |
+|                           |   1    |   0.96     |  0.98  |   0.97    |   54    |
+|                           | Total  |           |        |          | **143** |
+|                           | **Accuracy** |      |        |          | **0.979** |
+|                           | **Macro avg** | 0.98 | 0.98 | 0.98 | 143 |
+|                           | **Weighted avg** | 0.98 | 0.98 | 0.98 | 143 |
 
 
 ```
