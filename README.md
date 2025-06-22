@@ -1,3 +1,15 @@
+
+# dsrp-mle-1
+
+<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
+    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
+</a>
+
+Ejemplo de uso de cookiecutter para el curso ded mle1
+
+## Project Organization
+
+
 # DSRP-MLE1: Regresión Logistica, Wisconsin_Breast_cancer data.
 
 ![release](https://img.shields.io/badge/release-v1.0.0-blue.svg)
@@ -151,6 +163,7 @@ Sin embargo, se recomienda su uso con supervisión profesional y como parte de u
 
 ---
 ## --> MODELO DE README CON COOKIECUTTER
+
 ```
 ├── LICENSE            <- Open-source license if one is chosen
 ├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
