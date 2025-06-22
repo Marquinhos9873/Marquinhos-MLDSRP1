@@ -37,17 +37,18 @@ realizar un modelo de regresión logística para poder predecir si el paciente d
 | **Valores faltantes**| Ninguno                                                                                                            |
 | **Unidades**         | No especifica, pero como es un dataset de Winsconsin, USA. Se interpretará con el sistema métrico local.                                                                           |
 
-| Variable               | Descripción                                                                 | Tipo             | Familia de Variable   |
+| Variable               | Descripción                                                                 | Tipo de dato     | Familia de Variable   |
 |------------------------|-----------------------------------------------------------------------------|------------------|------------------------|
-| `diagnosis`            | Diagnóstico del tejido mamario (`M`: maligno, `B`: benigno)                | Categórica       | Etiqueta/objetivo      |
-| `radius_mean`          | Promedio de la distancia del centro a los puntos del perímetro             | Numérica continua| Morfológica            |
-| `texture_mean`         | Desviación estándar de los valores de escala de grises                     | Numérica continua| Textural               |
-| `perimeter_mean`       | Promedio del perímetro del tumor                                            | Numérica continua| Morfológica            |
-| `area_mean`            | Promedio del área del tumor                                                 | Numérica continua| Morfológica            |
-| `smoothness_mean`      | Variación local en las longitudes del radio                                 | Numérica continua| Morfológica            |
-| `compactness_mean`     | (Perímetro² / Área) - 1.0                                                   | Numérica continua| Morfológica            |
-| `concavity_mean`       | Severidad promedio de las partes cóncavas del contorno                     | Numérica continua| Morfológica            |
-| `concave points_mean`  | Promedio de puntos cóncavos del contorno                                   | Numérica continua| Morfológica            |
+| `diagnosis`            | Diagnóstico del tejido mamario (`M`: maligno, `B`: benigno)                | `object`         | Etiqueta/objetivo      |
+| `radius_mean`          | Promedio de la distancia del centro a los puntos del perímetro             | `float`          | Morfológica            |
+| `texture_mean`         | Desviación estándar de los valores de escala de grises                     | `float`          | Textural               |
+| `perimeter_mean`       | Promedio del perímetro del tumor                                            | `float`          | Morfológica            |
+| `area_mean`            | Promedio del área del tumor                                                 | `float`          | Morfológica            |
+| `smoothness_mean`      | Variación local en las longitudes del radio                                 | `float`          | Morfológica            |
+| `compactness_mean`     | (Perímetro² / Área) - 1.0                                                   | `float`          | Morfológica            |
+| `concavity_mean`       | Severidad promedio de las partes cóncavas del contorno                     | `float`          | Morfológica            |
+| `concave points_mean`  | Promedio de puntos cóncavos del contorno                                   | `float`          | Morfológica            |
+Nota: Hay otras 23 variables adicionales en el dataset, todas del tipo 'float'.
 
 ## Project Organization
 
