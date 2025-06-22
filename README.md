@@ -13,6 +13,22 @@
 Este proyecto académico sobre el dataset wisconsin_breastcancer.csv(Data.csv) reecuperado de https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data tiene como objetivo
 realizar un modelo de regresión logística para poder predecir si el paciente dado a los datos, si padece cancer de mama o no.
 ---
+## 📑 Índice
+
+- [🧠 1. Problema y Objetivo del Proyecto](#1-problema-y-objetivo-del-proyecto)
+  - [Contexto del problema](#contexto-del-problema)
+  - [Objetivo del trabajo](#objetivo-del-trabajo)
+- [🪧 2. Project Flowchart](#2-project-flowchart)
+- [✍️ 3. Descripción del dataset](#3-descripción-del-dataset)
+- [✉️ 4. Model Card : Regresión_Logistica_breastcancer v_1](#4-model-card--regresión_logistica_breastcancer-v_1)
+  - [📊 Comparación del Modelo](#comparación-del-modelo)
+- [🐈‍⬛ 5. Estrategia de Git](#5-estrategia-de-git)
+- [💥 6. Resultados y Conclusiones](#6-resultados-y-conclusiones)
+  - [🧪 Evaluación del Modelo](#evaluación-del-modelo)
+  - [🧾 Conclusiones](#conclusiones)
+- [➡️ MODELO DE README CON COOKIECUTTER](#modelo-de-readme-con-cookiecutter)
+
+---
 ## 🧠 1. Problema y Objetivo del Proyecto
 ###     Contexto del problema:
 ###     El cáncer de mama es una de las enfermedades más comunes y preocupantes a nivel mundial, representando un desafío significativo para los sistemas de salud debido a su alta incidencia y mortalidad asociada. Una detección temprana y precisa es fundamental para mejorar el pronóstico de los pacientes y permitir un tratamiento oportuno y eficaz.
